@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  </head>
+  <body>
+    <button onclick = "document.getElementById('id01').style.display='block'" style="width:auto;font-size:20px;">Login</button>
+    <div id="id01" class="modal"style="width:500px; margin-left:32%;">
+      <form class="modal-content animate" action="homepage.html" method="post">
+        <div class="imgcontainer" style="background-color:red">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="close modal">&times;</span>
+        </div>
+        <div class="container" style="width:500px">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="uname"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+           <label>
+             <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+          <button type="submit" style="background-color: #ADD8E6">Login<button>
+           
+        </div>
+      </form>
+    </div>
+
+    <script>
+      var modal= document.getElementById('id01');
+    window.onclick= function(event){
+      if(event.target==modal){
+        model.style.display=="none";
+      }
+    }
+    </script>
+
+    <div class="hero">
+      <img src="https://i.ibb.co/wRT7Gtc/awal.jpg">
+    </div>
+    <hr style="background-color:lightgray"><br>
+
+    <div class="isi"><center>
+      <p style="font-size:20px; text-align:ceenter"><b>SISTEM PEMBAYARAN</b></p>
+      <p style="font-size:20px; text-align:ceenter"><b>UANG SEKOLAH</b></p>
+      <p style="font-size:20px; text-align:ceenter">Platform untuk orang tua membayar keperluan sekolah</p></center><br>
+    </div>
+
+    
+
+    <div class="card-group">
+      <div class="card" style="border:transparent">
+        <img src="https://i.ibb.co/mXp45M2/icon1.png" class="card-img-top" style="width:100px; height:100px;margin-left:40%">
+        <div class="card-body">
+          <h5 class="card-title"><b>BANK</b></h5>
+      </div>
+    </div>
+
+    <div class="card" style="border:transparent">
+      <img src="https://i.ibb.co/6ch4H5M/icon2.png" class="card-img-top" style="width:100px; height:100px;margin-left:40%">
+      <div class="card-body">
+          <h5 class="card-title"><b>RETAIL</b></h5>
+      </div>
+    </div>
+  
+    <div class="card" style="border:transparent">
+      <img src="https://i.ibb.co/pnhmpfQ/icon3.png" class="card-img-top" style="width:100px; height:100px;margin-left:40%">
+      <div class="card-body">
+        <h5 class="card-title"><b>TUNAI</b></h5>
+      </div>
+    </div>
+</div><br>	
+    
+    <div class="isi2">
+      <p style="font-size:20px; text-align:center">
+        <b>MELALUI BANYAK METODE PEMBAYARAN</b>
+      </p>
+      <div class="isiisi">
+        <div class="jumbotron jumbotron-fluid" style="height:200px">
+  					<div class="container">
+  						<div class="card-group" style="margin-top:-40px">
+  <div class="card">
+    <img src="https://i.ibb.co/b1X3chS/icon4.png" class="card-img-top" style="width:100px; height:100px;margin-left:40%">
+    <div class="card-body">
+      <h5 class="card-title"><b>KREDIT</b></h5>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://i.ibb.co/ckdYwgR/icon5.png" class="card-img-top" style="width:100px; height:100px;margin-left:40%">
+    <div class="card-body">
+      <h5 class="card-title"><b>TRANSFER BANK</b></h5>
+    </div>
+  </div>
+      </div>
+    </div>
+    </div><br>
+    					
+  					</div>
+				</div>
+			</div>		
+		</div>
+
+        <script src="script.js"></script>
+  </body>
+</html>

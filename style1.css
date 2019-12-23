@@ -1,0 +1,39 @@
+	.header{
+	width: 100%;
+	height: 50px;
+  background-color:		#ADD8E6;
+	margin-bottom: 2px;
+}
+.logo{
+	background-color: #ADD8E6;
+}
+
+.isik{
+	width: 24.7%;
+	height: 500px;
+	background-color: black;
+}
+.footer {
+   width: 100%;
+   background-color: #ADD8E6;
+   color: black;
+   text-align: center;
+}
+
+
+/* statuspembayaran */
+meja{
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td{
+  text-align: left;
+  padding: 10px;
+  margin-bottom:5px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2
+}
